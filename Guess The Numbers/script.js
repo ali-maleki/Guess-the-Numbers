@@ -52,7 +52,7 @@ function maker(num) {
      el.style.width = "50px"
      el.classList.add("numb");
      el.correct = Math.floor(Math.random()*10);
-     el.value = el.correct;
+     el.value = 0;
      el.order = num;
      gameArea.appendChild(el);
      };
